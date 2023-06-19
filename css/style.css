@@ -1,0 +1,202 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    max-height: 100%;
+    overflow: auto;
+    color: #000;
+    overflow-x: hidden;
+}
+
+.front-indicator_1 {
+    margin: 0.5em 0;
+    width: 100%;
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+    text-align: center;
+    background-color: #F2E3DB;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+}
+
+.container_1 {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+}
+
+.booking-details {
+    text-align: left;
+    font-size: 12px;
+    padding: 4em;
+}
+
+.booking-details h2 {
+    margin: 5px 0 20px 0;
+    font-size: 26px;
+    text-align: right;
+}
+
+.booking-details h3 {
+    margin: 5px 0 0 0;
+    font-size: 20px;
+    text-align: right;
+}
+
+div.seatCharts-cell {
+    color: #1a1c1e;
+    height: 4em;
+    width: 14.666666%;
+    line-height: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+div.seatCharts-seat {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+div.seatCharts-row {
+    height: 5em;
+}
+
+div.seatCharts-seat.available {
+    background: #070A52;
+}
+
+div.seatCharts-seat.focused {
+    background: #3C486B;
+}
+
+div.seatCharts-seat.selected {
+    background-color: #F9D949;
+}
+
+div.seatCharts-seat.unavailable {
+    background: #D21312;
+}
+
+div.seatCharts-container {
+    border-right: 1px dotted #adadad;
+    padding: 20px;
+}
+
+div.seatCharts-legend {
+    padding-left: 0px;
+    bottom: 16px;
+}
+
+ul.seatCharts-legendList {
+    padding-left: 0px;
+}
+
+span.seatCharts-legendDescription {
+    margin-left: 5px;
+    line-height: 30px;
+}
+
+checkout-button {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+#selected-seats {
+    min-height: 10em;
+    overflow-y: scroll;
+    background: #ECC9EE;
+    padding: 0.5em 1em;
+    overflow: auto;
+    font-size: medium;
+}
+
+
+ul#selected-seats>li {
+    color: #000;
+    list-style: none;
+}
+
+.text-muted {
+    color: rgb(255 252 252);
+    text-shadow: 2px 2px 5px #000;
+}
+
+.text-center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fw-bolder {
+    font-weight: bolder;
+}
+
+.row_1 {
+    --bs-gutter-x: 0.5rem;
+    --bs-gutter-y: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.grid-50 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+div.seatCharts-space {
+    background-color: transparent;
+    color: #F2E3DB!important;
+}
+
+li.seatCharts-legendItem {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 5em;
+    font-weight: bold;
+}
+
+#checkout-button, #reinicio{
+    margin: 10px;
+    padding: 10px 40px;
+    text-align: center;
+    transition: .5s;
+    background-size: 200% auto;
+    color: #000;
+    border-radius: 10px;
+    display: block;
+    background-color: #98D8AA;
+    border: none;
+    cursor: pointer;
+}
+
+#checkout-button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#reinicio:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
